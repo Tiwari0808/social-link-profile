@@ -60,7 +60,11 @@ body{
     padding: 0.5rem;
     border-radius: 8px;
     color:hwb(0 85% 8%);
-
+    cursor: pointer;
+}
+.skills:hover{
+    background-color:hsl(75, 94%, 57%) ;
+    color: black;
 }
 
 
