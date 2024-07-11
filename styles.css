@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(0, 3%, 6%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    width: 50vh;
+    height: 80vh;
+    border-radius: 8px;
+    margin-top: 3.5rem;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top img{
+    border-radius: 50%;
+    width: 5vw;
+    margin-bottom: 1rem;
+}
+
+.top h2{
+    color:hwb(0 85% 8%);
+    margin-bottom: 0.3rem;
+}
+.top h4{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 1rem;
+}
+.top p{
+    color:hwb(0 85% 8%);
+}
+.bottom{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+    gap: 0.5rem;
+    
+}
+.skills{
+    background-color: hsl(0, 0%, 20%);
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    color:hwb(0 85% 8%);
+
+}
+
+
+@media screen and (max-width:600px){
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 12%);
+        width: 90%;
+        height: 80vh;
+        border-radius: 8px;
+        margin-top: 3.5rem;
+    }
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .top img{
+        border-radius: 50%;
+        width:20vw;
+        margin-bottom: 1rem;
+    }
+    .top h2{
+        color:hwb(0 85% 8%);
+        margin-bottom: 0.3rem;
+    }
+    .top h4{
+        color: hsl(75, 94%, 57%);
+        margin-bottom: 1rem;
+    }
+    .top p{
+        color:hwb(0 85% 8%);
+    }
+    /* .skills{
+        background-color: hsl(0, 0%, 20%);
+        width: 200%;
+        padding: 0.5rem;
+        border-radius: 8px;
+        color:hwb(0 85% 8%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    } */
+}
